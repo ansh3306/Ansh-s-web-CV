@@ -77,8 +77,15 @@ footer {
     transition: all 0.3s ease;
 }
 
-.contacts button:hover {
-    background-color: #0056b3;
+#button{
+    background-color: #040101ac;
+    color: rgb(191, 232, 226);
+    border-radius: 199px; border: 1px solid rgb(130, 95, 95, 0.5);
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: #000000d1;
 }
 
 
@@ -93,3 +100,4 @@ footer {
     cursor: pointer;
     color: inherit; /* Match text color */
 }
+
