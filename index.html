@@ -1,61 +1,487 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansh Droch</title>
-    <link id="theme-style" rel="stylesheet" href="lstyle.css">
+
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Laralink">
+  <!-- Page Title -->
+  <title>Ansh Droch - Personal Portfolio</title>
+  <!-- Favicon Icon -->
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/lightgallery.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
 
-    <header>
-        <h1>Ansh Droch</h1>
-        <p>Math Major | CS Minor | AI Enthusiast</p>
-        <button id="theme-toggle">
-            🌙 <!-- Default icon for light mode -->
-        </button>
-    </header>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-59P9M24L1T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I'm Ansh Droch, an Integrated Master's student at the <a href="https://en.wikipedia.org/wiki/National_Institute_of_Science_Education_and_Research" target="_blank"><abbr title="National Institute of Science Education and Research">NISER</abbr></a>. I am majoring in Mathematics with a minor in Computer Science. Currently in my second year, I completed my schooling at MRA DAV Public School, Solan. Passionate about quantum computing and Mathematics, I am actively working on developing my skills in the field. Beyond my college coursework, I am independently studying quantum computing to deepen my understanding.</p>
-    </section>
+  gtag('config', 'G-59P9M24L1T');
+</script>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python, HTML, CSS, JavaScript</li>
-            <li>Probability Theory, Combinatorics, Linear Algebra</li>
-            <li>AI/ML Fundamentals</li>
-            <li>Web Development (Flask, Django, Node.js)</li>
-        </ul>
-    </section>
+<body id="home">
+  <!-- Start Header Section -->
+  <header class="st-site-header st-style1 st-sticky-header">
+    <div class="st-main-header">
+      <div class="container">
+        <div class="st-main-header-in">
+          <div class="st-main-header-right">
+            <div class="st-nav">
+              <ul class="st-nav-list st-onepage-nav">
+                <li><a href="#home" class="st-smooth-move">Home</a></li>
+                <li><a href="#about" class="st-smooth-move">About</a></li>
+                <li><a href="#resume" class="st-smooth-move">Resume</a></li>
+                <li><a href="#portfolio" class="st-smooth-move">Portfolio</a></li>
+                <li><a href="#contact" class="st-smooth-move">Contact</a></li>
+              </ul>
+              <div class="sp-phone">
+                <svg viewBox="0 0 513.64 513.64">
+                  <g>
+                    <g>
+                      <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+                    </g>
+                  </g>
+                </svg>
+                <div class="sp-phone-no"><a href="tel:+91 6239113947">+91 6239113947</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header Section -->
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="project/probability Stimulator.py"><strong>Discrete Probability Stimulator:</strong> </a>></li>
-            <li><a href="/project/Slot Machine.py"><strong>Personal Finance Tracker:</strong></a> </li>
-            <li><strong>This website itself :)</strong>.</li>
-        </ul>
-    </section>
+  <!-- Start Hero Seciton -->
+  <div class="st-height-b80 st-height-lg-b80"></div>
+  <section class="st-hero-wrap st-parallax">
+    <div class="st-hero st-style1 st-ripple-version">
+      <div class="container">
+        <div class="st-hero-text">
+          <h3>Hello, I’m</h3>
+          <h1>Ansh <br>Droch
+          </h1>
+          <h2>&Sigma;Coder</h2>
+          <div class="st-hero-btn">
+            <a href="#contact" class="st-btn st-style1 st-color1 st-smooth-move">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Image - Social Link Group -->
+    <div class="st-hero-img st-to-right">
+      <img class="wow fadeInRight" src="assets/img/section/Ansh hero.jpg" alt="Hero">
+      <div class="st-social-group wow fadeInLeft">
+        <div class="st-social-link">
+          <a href="https://instagram.com/ansh.droch/" class="st-social-btn active">
+            <span class="st-social-icon"><i class="fab fa-instagram"></i></span>
+            <span class="st-icon-name">Instagram</span>
+          </a>
+          <a href="https://github.com/ansh3306" class="st-social-btn">
+            <span class="st-social-icon"><i class="fab fa-github"></i></span>
+            <span class="st-icon-name">Github</span>
+          </a>
+          <a href="https://www.linkedin.com/in/anshdroch3306/" class="st-social-btn">
+            <span class="st-social-icon"><i class="fab fa-linkedin"></i></span>
+            <span class="st-icon-name">LinkedIn</span>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div id="particles-js"></div>
+  </section>
+  <!-- End Hero Seciton -->
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class=contacts><a href="mailto:anshdroch@gmail.com" >Email</a>|<a href="https://github.com/ansh3306" target="_blank" >GitHub</a>|<a href="https://linkedin.com/in/yourlinkedin" target="_blank"  >LinkedIn</a></div>
-        <p style="text-align: center;"><b>OR</b></p>
-        <form class="contacts">
-            <input type="email" placeholder="Type your Email">
-            <input type="text" placeholder="Your Message"><br>
-            <button id="button" >SUBMIT</button>
-        </form>
-    </section>
+  <!-- Start About Seciton -->
+  <section id="about" class="st-about-wrap">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">ABOUT ME</h4>
+        <h2 class="st-section-heading-subtitle">ABOUT ME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeInLeft">
+          <div class="st-about-img-wrap">
+            <div class="st-about-img st-dynamic-bg st-bg" data-src="assets/img/section/IMG_0277-min.jpg"></div>
+          </div>
+          <div class="st-height-b0 st-height-lg-b30"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="st-vertical-middle">
+            <div class="st-vertical-middle-in">
+              <div class="st-text-block st-style1">
+                <h2 class="st-text-block-title">Hi There! I'm Ansh Droch</h2>
+                <h4 class="st-text-block-subtitle">&Sigma;Coder</h4>
+                <div class="st-text-block-text">
+                  <p>Hi, I'm Ansh Droch, an Integrated Master's student at the <a href="https://en.wikipedia.org/wiki/National_Institute_of_Science_Education_and_Research" target="_blank"><abbr title="National Institute of Science Education and Research">NISER</abbr></a>. I am majoring in Mathematics with a minor in Computer Science. Currently in my second year, I completed my schooling at MRA DAV Public School, Solan. Passionate about quantum computing and Mathematics, I am actively working on developing my skills in the field. Beyond my college coursework, I am independently studying quantum computing to deepen my understanding.<p>
+                </div>
+                <ul class="st-text-block-details st-mp0">
+                  <li><span>Birthday</span> : <span>Dec 24, 2003</span></li>
+                  <li><span>Phone</span> : <span><a href="tel:+91 6239113947">+91 6239113947</a></span></li>
+                  <li><span>Email</span> : <span><a href="mailto:anshdroch@gmail.com">anshdroch@gmail.com</a></span></li>
+                  <li><span>From</span> : <span>India</span></li>
+                  <li><span>Language</span> : <span>English, Hindi, Punjabi</span></li>
+                  <li><span>Freelance</span> : <span>Available</span></li>
+                </ul>
+                <div class="st-text-block-btn">
+                  <a href="https://example.com" class="st-btn st-style1 st-color1">Download CV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Seciton -->
 
-    <footer>
-        <p>© 2025 Ansh Droch. All rights reserved.</p>
-    </footer>
+  <!-- Start Service Seciton -->
+  <section>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">Work Intrests and Skills</h4>
+        <h2 class="st-section-heading-subtitle">Work Intrests and Skills</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- Iconbox Container -->
 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+                <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32 2C19.85 2 12 8.42 12 18v8h20v4H12c-4 0-8 2.92-8 8v10c0 8 6.85 12 16 12h8v-8c0-4 3-8 8-8h8c3 0 6 3 6 6v10c0 7-6 10-14 10-5 0-9-1-14-4l-4 6c6 4 12 6 18 6 14 0 22-7 22-18V46c0-8-5-14-12-14h-12v-4h20c6 0 10-5 10-12V18C54 8.42 46.15 2 32 2zm-10 10c2 0 4 2 4 4s-2 4-4 4-4-2-4-4 2-4 4-4zm20 28c2 0 4 2 4 4s-2 4-4 4-4-2-4-4 2-4 4-4z" />
+                  </svg>
+                  
+                  
+            </div>
+
+            <h2 class="st-iconbox-title">Python and fundamentals of AI/ML</h2>
+            <div class="st-iconbox-text">Python is a versatile programming language widely used in AI and machine learning due to its simplicity and extensive libraries like TensorFlow, PyTorch, and scikit-learn. Understanding AI/ML fundamentals involves learning algorithms, data processing, and model training, enabling applications in automation, pattern recognition, and intelligent decision-making.</div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+                <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 54 L54 10 " stroke="#555" stroke-width="2" fill="none" filter="drop-shadow(0 0 2px #888)"/>
+                    <path d="M10 10 L54 54" stroke="#555" stroke-width="2" fill="none" filter="drop-shadow(0 0 2px #888)"/>
+                    <path d="M32 10 L32 54" stroke="#555" stroke-width="" fill="none" filter="drop-shadow(0 0 2px #888)"/>
+                    <path d="M10 32 L54 32" stroke="#555" stroke-width="2" fill="none" filter="drop-shadow(0 0 2px #888)"/>
+                  </svg>
+            </div>
+            <h2 class="st-iconbox-title">Linear Algebra and Probability Theory</h2>
+            <div class="st-iconbox-text">Probability theory helps us analyze uncertainty, make predictions, and understand randomness in real-world scenarios. Linear algebra provides the foundation for working with vectors, matrices, and transformations, making it essential for fields like machine learning, physics, and computer graphics. Together, they play a crucial role in data science, optimization, and modern computational techniques..</div>
+          </div>
+          <div class="st-height-b30 st-height-lg-b30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+                <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 12h48v8H8zM8 28h48v8H8zM8 44h48v8H8zM20 2h24v4H20zM20 58h24v4H20zM32 2v4M32 58v4M8 12V6h48v6M8 52v6h48v-6" stroke="#555" stroke-width="2" fill="none" filter="drop-shadow(0 0 2px #888)"/>
+                  </svg>
+                  
+            </div>
+            <h2 class="st-iconbox-title">Web Development</h2>
+            <div class="st-iconbox-text">Web development involves building and maintaining websites using technologies like HTML, CSS, and JavaScript. Backend frameworks like Flask, Django, and Node.js help create dynamic, scalable applications. A strong foundation in web development enables the creation of responsive, user-friendly, and efficient digital experiences across various platforms.</div>
+          </div>
+          <div class="st-height-b0 st-height-lg-b30"></div>
+        </div><!-- .col -->
+        <div class="col-lg-4 col-md-6">
+          <div class="st-iconbox st-style1">
+            <div class="st-iconbox-icon">
+                <svg viewBox="0 0 85 64" xmlns="http://www.w3.org/2000/svg">
+                    <text x="10" y="40" font-family="serif" font-size="24" fill="#555" filter="drop-shadow(0 0 2px #888)">LaTeX</text>
+                  </svg>
+                  
+            </div>
+            <h2 class="st-iconbox-title">LaTeX</h2>
+            <div class="st-iconbox-text">LaTeX is a powerful typesetting system widely used for academic and scientific documents. It excels in formatting complex mathematical expressions, research papers, and technical reports with precision. Unlike word processors, LaTeX focuses on content structure, enabling professional-quality documents with automated references, citations, and formatting, making it essential for researchers and scholars.</div>
+          </div>
+          <div class="st-height-b0 st-height-lg-b30"></div>
+        </div><!-- .col -->
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Service Seciton -->
+
+  <!-- Start co-coricular Seciton -->
+  <section class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">Co-Coriculars</h4>
+        <h2 class="st-section-heading-subtitle">MY SKILLS</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="st-skill-wrap">
+            <div class="st-skill-heading">
+              <h2 class="st-skill-title">Things Besides Academics...</h2>
+              <div class="st-skill-subtitle">Besides Acadmics I am someone who loves to travel, explore new places, meet new people, and learn about different cultures. I am also a member of my college drama team. Doing gym is also something i enjoy (though my consistency varies😅)
+            </div><!-- .st-skill-heading -->
+          </div>
+        </div>
+
+
+
+  <!-- Start Resume Seciton -->
+  <section id="resume" class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">RESUME</h4>
+        <h2 class="st-section-heading-subtitle">RESUME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- 
+        Experience 
+        <div class="col-lg-6">
+          <div class="st-resume-wrap">
+            <div class="st-resume-heading">
+              <img src="assets/img/icon/resume-icon1.png" alt="resume-icon">
+              <h2 class="st-resume-heading-title">Experience</h2>
+            </div>
+
+            <div class="st-height-b50 st-height-lg-b30"></div>
+
+            <div class="st-resume-timeline-wrap">
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Video Editor</h3>
+                <div class="st-resume-timeline-duration">Nov 2023 - January 2024</div>
+                <h4 class="st-resume-timeline-subtitle">Sportit, Internship</h4>
+                <div class="st-resume-timeline-text">
+                  <p>
+                    During my internship, I was responsible for creating daily Instagram posts and reels on the latest sports news. This experience honed my research skills, enhanced my ability to conceptualize information into engaging graphics and videos, and improved my workload management under tight deadlines.</p>
+                </div>
+              </div> 
+              <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Graphic Designer</h3>
+                <div class="st-resume-timeline-duration">Sep 2022 - Present</div>
+                <h4 class="st-resume-timeline-subtitle">JYC, Part-Time Internship</h4>
+                <div class="st-resume-timeline-text">
+                  <p>I began my journey in my college's tech club as a graphic design member,
+                     where my creativity and dedication led to a promotion as the design lead. Recently, I advanced to the role of club coordinator, overseeing the club's design initiatives and leading the team to new heights.</p>
+                </div>
+              </div>
+              <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Freelance Designer</h3>
+                <div class="st-resume-timeline-duration">Sep 2021 - September 2021</div>
+                <h4 class="st-resume-timeline-subtitle">Freelance</h4>
+                <div class="st-resume-timeline-text">
+                  <p>As a freelancer for a college fest, I was responsible for designing a series of eye-catching posters that effectively captured the essence of the event. Each design was tailored to resonate with the target audience, showcasing my ability to combine creativity with strategic communication. </p>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+    -->
+        <!-- Education -->
+        <div class="col-lg-6">
+
+          <div class="st-height-b0 st-height-lg-b50"></div>
+          <div class="st-resume-wrap">
+            <div class="st-resume-heading">
+              <img src="assets/img/icon/resume-icon2.png" alt="resume-icon">
+              <h2 class="st-resume-heading-title">Education and Academic Persuits</h2>
+            </div>
+            <div class="st-height-b50 st-height-lg-b30"></div>
+
+            <div class="st-resume-timeline-wrap">
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Integrated Masters in Science</h3>
+                <div class="st-resume-timeline-duration">2023 - Ongoing(2028)</div>
+                <h4 class="st-resume-timeline-subtitle">National Institute Of Science Education And Research (NISER)</h4>
+                <div class="st-resume-timeline-text">
+                  <p>At NISER, I am pursuing an Integrated Master's degree in Mathematics while also minoring in Computer Science. My studies focus on deepening my understanding of mathematical concepts while complementing them with computational techniques and problem-solving approaches from computer science.</p>
+                </div>
+              </div> <!-- st-resume-timeline -->
+              <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">Lecture Series on Theoretical Computer Science</h3>
+                <div class="st-resume-timeline-duration">January 2,2025 - January 8,2025</div>
+                <h4 class="st-resume-timeline-subtitle">The Institute of Mathematical Sciences</h4>
+                <div class="st-resume-timeline-text">
+                  <p>At Institute of Mathematical Sciences, Chennai, I attended the foundational Lecture Series on Theoretical Computer Science where i was introduces to various concepts (their application)  and theories like the automata theory, complexity theory, cryptography, combinatorics and many more which forms the backbone of the TCS.
+                <div class="st-height-b50 st-height-lg-b30"></div>
+              <div class="st-resume-timeline">
+                <h3 class="st-resume-timeline-title">12th Standard(Medical)</h3>
+                <div class="st-resume-timeline-duration">2021 - 2022</div>
+                <h4 class="st-resume-timeline-subtitle">MRA DAV Public school</h4>
+                <div class="st-resume-timeline-text">
+                  <p>I completed my Senior Secondary education
+                     at MRA DAV Public School, where I developed a solid
+                      grounding in subjects such as Physics, Chemistry, Informatic Practices 
+                      and Biology. My time here was marked by a 
+                      commitment to academic excellence. </p>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Resume Seciton -->
+
+  <!-- Start Portfolio Seciton 
+  <section id="portfolio">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">Project</h4>
+        <h2 class="st-section-heading-subtitle">Project</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+   
+  </section>
+  <!-- End Portfolio Seciton -->
+
+  <!-- Start Contact Seciton -->
+  <section id="contact" class="st-dark-bg">
+    <div class="st-height-b100 st-height-lg-b80"></div>
+    <div class="container">
+      <div class="st-section-heading st-style1">
+        <h4 class="st-section-heading-title">CONTACT ME</h4>
+        <h2 class="st-section-heading-subtitle">CONTACT ME</h2>
+      </div>
+      <div class="st-height-b25 st-height-lg-b25"></div>
+    </div>
+
+    <!-- Contact Container -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="st-contact-title">Just say Hello</h3>
+          <div id="st-alert"></div>
+          <form
+  action="https://formspree.io/f/xrbpzwyg"
+  method="POST"
+>
+            <div class="st-form-field">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="st-form-field">
+              <input type="text" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="st-form-field">
+              <input type="text" id="subject" name="subject" placeholder="Your Subject" required>
+            </div>
+            <div class="st-form-field">
+              <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message" required></textarea>
+            </div>
+            <button class="st-btn st-style1 st-color1" type="submit" id="submit" name="submit">Send message</button>
+          </form>
+        </div>
+        <div class="st-height-b0 st-height-lg-b30"></div>
+
+        <div class="col-lg-6">
+          <div class="st-height-b0 st-height-lg-b40"></div>
+          <h3 class="st-contact-title">Contact Info</h3>
+          <div class="st-contact-text">
+            I'm always excited to connect with others! Whether you have a question, a collaboration idea, or just want to chat, feel free to drop me a message. I'd love to hear from you and explore how we can work together or share ideas.
+          </div>
+          <div class="st-contact-info-wrap">
+            <div class="st-single-contact-info">
+              <i class="fas fa-envelope"></i>
+              <div class="st-single-info-details">
+                <h4>Email</h4>
+                <a href="mailto:anshdroch@gmail.com">anshdroch@gmail.com</a>
+              </div>
+            </div>
+            <div class="st-single-contact-info">
+              <i class="fas fa-phone-alt"></i>
+              <div class="st-single-info-details">
+                <h4>Phone</h4>
+                <a href="tel:+916239113947">+91 6239113947</a>
+              </div>
+            </div>
+            <div class="st-single-contact-info">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="st-single-info-details">
+                <h4>Address</h4>
+                <a href="https://www.google.co.in/maps/place/National+Institute+of+Science+Education+and+Research/@20.1718279,85.683561,17z/data=!3m1!4b1!4m6!3m5!1s0x3a19aea7a433ea4b:0x455d13f7d6284a15!8m2!3d20.1718279!4d85.6861359!16s%2Fm%2F0264n_z?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D">DOH-1 Krishna Hostel NISER Campus Jatni, Odisha, India</a>
+              </div>
+            </div>
+            <div class="st-social-info">
+              <div class="st-social-text">Visit my social profile and get connected</div>
+              <div class="st-social-link">
+                <a href="https://instagram.com/ansh.droch/" class="st-social-btn active">
+                  <span class="st-social-icon"><i class="fab fa-instagram"></i></span>
+                  <span class="st-icon-name">Instagram</span>
+                </a>
+                <a href="https://github.com/ansh3306" class="st-social-btn">
+                  <span class="st-social-icon"><i class="fab fa-github"></i></span>
+                  <span class="st-icon-name">Github</span>
+                </a>
+                <a href="https://www.linkedin.com/in/anshdroch3306/" class="st-social-btn">
+                  <span class="st-social-icon"><i class="fab fa-linkedin"></i></span>
+                  <span class="st-icon-name">LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="st-height-b100 st-height-lg-b80"></div>
+  </section>
+  <!-- End Contact Seciton -->
+
+  <!-- Start Footer Seciton -->
+  <footer>
+    <div class="container">
+      <div class="st-copyright-wrap text-center">
+            <p>&copy;Ansh Droch. All rights reserved.</p>
+            <p>Last Updated on 09-03-2025.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Seciton -->
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/jquery.slick.min.js"></script>
+  <script src="assets/js/lightgallery.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/ripples.min.js"></script>
+  <script src="assets/js/particles.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
