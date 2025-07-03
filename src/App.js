@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Education from './components/Education';
@@ -23,6 +24,7 @@ function App() {
   };
 
   return (
+    <BrowserRouter basename="/ansh-s-web-cv">
       <div className={`app-wrapper ${darkMode ? 'dark' : 'light'} ${bloodMode ? 'blood-mode' : ''}`}>
         <Header darkMode={darkMode} setDarkMode={setDarkMode} onSecretTrigger={handleSecretTrigger} />
 
@@ -45,6 +47,7 @@ function App() {
           </div>
         )}
       </div>
+    </BrowserRouter>
   );
 }
 
