@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ansh-portfolio/static/css/main.230a159b.css",
+    "main.js": "/ansh-portfolio/static/js/main.54e5969d.js",
+    "static/js/453.8f1ca929.chunk.js": "/ansh-portfolio/static/js/453.8f1ca929.chunk.js",
+    "static/media/Main1.jpeg": "/ansh-portfolio/static/media/Main1.3c307503a65790452622.jpeg",
+    "index.html": "/ansh-portfolio/index.html",
+    "main.230a159b.css.map": "/ansh-portfolio/static/css/main.230a159b.css.map",
+    "main.54e5969d.js.map": "/ansh-portfolio/static/js/main.54e5969d.js.map",
+    "453.8f1ca929.chunk.js.map": "/ansh-portfolio/static/js/453.8f1ca929.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.230a159b.css",
+    "static/js/main.54e5969d.js"
+  ]
+}
