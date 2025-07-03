@@ -1,0 +1,35 @@
+.section-card {
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Ensure nothing spills horizontally */
+}
+
+.coursework-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.coursework-column {
+  flex: 1 1 300px;  /* Grow and shrink with min width 300px */
+  min-width: 0;     /* Allows it to shrink inside flexbox */
+  box-sizing: border-box;
+}
+
+.coursework-column h3 {
+  font-size: clamp(1.2rem, 1vw + 1rem, 1.5rem);
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+
+.coursework-column ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.coursework-column li {
+  list-style-type: disc;
+  font-size: clamp(1rem, 0.8vw + 0.9rem, 1.25rem);
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}

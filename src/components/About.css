@@ -1,0 +1,85 @@
+.hidden-button {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  opacity: 0; /* Make it invisible */
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10000;
+}
+.hidden-button {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Animation effect: fade out + scale down */
+.page-container.animate-out {
+  animation: coolExit 1s forwards;
+}
+
+@keyframes coolExit {
+  0% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8) rotate(10deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) rotate(360deg);
+  }
+}
+
+.fun-mode {
+  padding: 50px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.fun-mode h1 {
+  font-size: 3rem;
+}
+
+.fun-mode button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.full-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border: 5px solid white;
+  border-radius: 10px;
+  align-items: center;
+}

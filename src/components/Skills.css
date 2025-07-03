@@ -1,0 +1,54 @@
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  max-width: 200px;
+  flex: 1 1 150px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.skill-item:hover {
+  transform: translateY(-3px);
+}
+
+.dark-skill {
+  background: rgba(0, 0, 0, 0.3);
+  color: #eee;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+.progress-bar {
+  background: rgba(200, 200, 200, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 6px;
+  margin: 0.5rem 0;
+}
+
+.dark-skill .progress-bar {
+  background: rgba(100, 100, 100, 0.3);
+}
+
+.progress-fill {
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  height: 100%;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+.skill-level {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}

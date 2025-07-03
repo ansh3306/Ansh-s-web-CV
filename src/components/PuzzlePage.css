@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.puzzle-container {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #0a0f1c 40%, #000 100%);
+  color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  animation: bgShift 20s infinite alternate linear;
+}
+
+@keyframes bgShift {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+.puzzle-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #38bdf8;
+}
+
+.puzzle-question {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  text-align: center;
+}
+
+.puzzle-input {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+.puzzle-button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.puzzle-button:hover {
+  background: #0ea5e9;
+}
+
+.attempts-left {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.goodbye-message {
+  font-size: 2.5rem;
+  color: red;
+  text-shadow: 0 0 20px red;
+  animation: fadeGoodbye 3s forwards;
+}
+
+.conjuring-font {
+  font-family: 'Creepster', cursive;
+}
+
+@keyframes fadeGoodbye {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
